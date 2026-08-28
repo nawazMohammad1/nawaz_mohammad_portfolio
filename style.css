@@ -1,0 +1,865 @@
+/*======================================================
+  Portfolio for all commonly using css start from here
+======================================================*/
+* {
+  background-color: #0b0f19;
+  color: #f1f5f9;
+}
+/*======================================================
+  Portfolio for all commonly using css Ends from here
+======================================================*/
+/*======================================================
+     Portfolio Navbar section css Starts from here
+====================================================== */
+.main_nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  height: 100px;
+  padding: 10px 0;
+}
+#logo {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#logo h1 {
+  margin: 0;
+  font-size: 30px;
+}
+#logo img {
+  display: block;
+  height: 70px;
+  width: 70px;
+}
+#logo h1:hover {
+  color: #00e5ff;
+}
+#logo span {
+  color: #00e5ff;
+}
+/*======================================================
+     Portfolio Navbar section css ends from here
+======================================================*/
+/*======================================================
+    Portfolio Home Page css Starts from here
+======================================================*/
+.home {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.home a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.home a:hover {
+  color: #00e5ff;
+}
+.lc_btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #00e5ff;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+}
+#lc_btn {
+  text-decoration: none;
+}
+.lc_btn p {
+  background-color: #00e5ff;
+  margin: 0px;
+}
+.lc_btn p:hover {
+  color: #0b0f19;
+}
+.lc_btn img {
+  background-color: #00e5ff;
+  width: 13px;
+  height: 14px;
+}
+.details {
+  padding-top: 25px;
+  line-height: 18px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#hello {
+  font-size: 30px;
+  font-weight: lighter;
+}
+#nawaz {
+  font-size: 80px;
+}
+#mohammad {
+  font-size: 80px;
+  color: #00e5ff;
+}
+#fd {
+  font-size: 25px;
+}
+#intro {
+  width: 600px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 25px;
+}
+.card {
+  border: 2px solid white;
+  width: 250px;
+  height: 400px;
+  background-color: #f1f5f9;
+  border-radius: 25px;
+  box-shadow: 0 6px 12px 0 #00e5ff;
+}
+.card img {
+  width: 200px;
+  margin: 25px 25px 0px 25px;
+  border-radius: 25px;
+}
+.card p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 25px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  height: 24px;
+  background-color: #f1f5f9;
+  color: #0b0f19;
+  line-height: 0px;
+}
+.card p:hover {
+  color: #00e5ff;
+}
+#cfd {
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.two_btn {
+  display: flex;
+  border: 2px #f1f5f9;
+  padding-top: 20px;
+}
+.two_btn button {
+  padding: 15px 25px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #00e5ff;
+}
+.vmp {
+  padding-right: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.vmp button:hover {
+  color: #0b0f19;
+}
+.lt button {
+  background-color: #0b0f19;
+}
+.lt button:hover {
+  background-color: #00e5ff;
+}
+.linkedin {
+  padding-top: 20px;
+  display: flex;
+  gap: 14px;
+}
+.linkedin p {
+  padding-left: 10px;
+  padding-top: 20px;
+  font-weight: 1px;
+}
+.linkedin img {
+  background-color: #f1f5f9;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #0b0f19;
+}
+.linkedin img:hover {
+  background-color: #00e5ff;
+}
+/*======================================================
+    Portfolio Home Page section css Ends from here
+======================================================*/
+/*======================================================
+  Portfolio About Me Page section css start from here
+======================================================*/
+.aboutme {
+  padding-top: 25px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 200px;
+}
+.abm {
+  padding-left: 210px;
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 0px;
+}
+.am {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 210px;
+  display: flex;
+  gap: 12px;
+}
+.am h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.am span {
+  color: #00e5ff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about_img {
+  border: 2px solid white;
+  width: 300px;
+  height: 500px;
+  background-color: #f1f5f9;
+  border-radius: 25px;
+  box-shadow: 0 6px 12px 0 #00e5ff;
+  margin-left: 25px;
+}
+.about_img img {
+  width: 250px;
+  margin: 25px 25px 0px 25px;
+  border-radius: 25px;
+}
+.about_img p {
+  text-align: center;
+  color: #0b0f19;
+  background-color: #f1f5f9;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 35px;
+  margin-right: 45px;
+  font-weight: bolder;
+  line-height: 30px;
+}
+.about_img p:hover {
+  color: #00e5ff;
+}
+#acp {
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.side {
+  display: flex;
+  gap: 100px;
+}
+.para p {
+  margin-top: 0px;
+  padding-right: 190px;
+  text-align: justify;
+  font-size: 25px;
+  line-height: 35px;
+  border: none;
+}
+/*======================================================
+  Portfolio About Me Page section css Ends from here
+======================================================*/
+/*======================================================
+  Portfolio Skills Page section css Starts from here
+======================================================*/
+#skills {
+  padding-top: 0;
+  padding-left: 210px;
+  padding-bottom: 0;
+  font-size: 35px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.heading {
+  padding-left: 210px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.heading h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 20px;
+}
+.heading span {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
+  color: #00e5ff;
+}
+.boxes {
+  margin-top: 50px;
+  padding-left: 210px;
+  padding-right: 210px;
+  display: flex;
+  gap: 40px;
+}
+.box {
+  border: 2px solid #f1f5f9;
+  width: 100%;
+  max-width: 450px;
+  height: 230px;
+  border-radius: 25px;
+}
+.box h1 {
+  padding-top: 25px;
+  margin: 0 30px;
+  width: 20;
+  color: #00e5ff;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.Small_boxes {
+  padding: 25px 25px 0 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.small_box {
+  border: 2px solid #f1f5f9;
+  background-color: #f1f5f9;
+  width: 100px;
+  min-height: 50px;
+  padding: 0 10px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.small_box h2 {
+  background-color: #f1f5f9;
+  color: #0b0f19;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+.small_box h2:hover {
+  color: #00e5ff;
+  cursor: pointer;
+}
+/*======================================================
+  Portfolio Skills Page section css Ends from here
+======================================================*/
+/*======================================================
+  Portfolio Projects Page section css Starts from here
+======================================================*/
+#project {
+  padding-top: 0;
+  padding-left: 210px;
+  padding-bottom: 0;
+  font-size: 35px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.ph {
+  padding-left: 210px;
+  display: flex;
+  gap: 8px;
+  font-size: 22.5px;
+}
+.ph span {
+  color: #00e5ff;
+}
+.project_boxes {
+  padding-left: 210px;
+  padding-right: 210px;
+}
+.project_box {
+  border: 2px solid #f1f5f9;
+  background-color: #f1f5f9;
+  border-radius: 25px;
+  padding: 30px 35px;
+  font-size: 25px;
+}
+.project_box p {
+  font-size: 30px;
+  text-align: justify;
+  color: #0b0f19;
+  background-color: #f1f5f9;
+}
+.project_box b {
+  background-color: #f1f5f9;
+  color: #0b0f19;
+}
+.project_box h3 {
+  margin-top: 0px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  color: #0b0f19;
+  background-color: #f1f5f9;
+}
+.project_box h2 {
+  color: #0b0f19;
+  background-color: #f1f5f9;
+}
+.ul ul {
+  background-color: #f1f5f9;
+}
+.ul li {
+  background-color: #f1f5f9;
+  color: #0b0f19;
+}
+.project_box h2:hover {
+  color: #00e5ff;
+}
+.project_box a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #0b0f19;
+  background-color: #f1f5f9;
+}
+.project_box a:hover {
+  color: #00e5ff;
+  background-color: #0b0f19;
+}
+/*======================================================
+  Portfolio Projects Page section css Ends from here
+======================================================*/
+/*============================================================
+   Portfolio certificates Page section css Starts from here
+============================================================*/
+#edc {
+  padding-top: 0;
+  padding-left: 210px;
+  padding-bottom: 0;
+  font-size: 35px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.edch {
+  padding-left: 210px;
+  display: flex;
+  gap: 8px;
+  font-size: 22.5px;
+}
+.edch span {
+  color: #00e5ff;
+}
+.ed_center {
+  text-align: center;
+  font-size: 40px;
+}
+.ed_center h2:hover {
+  color: #00e5ff;
+}
+.ed_center h2 {
+  margin-top: 0;
+}
+.ed_boxes {
+  padding-left: 210px;
+  padding-right: 210px;
+  display: flex;
+  gap: 25px;
+}
+.ed_box {
+  border: 2px solid #f1f5f9;
+  border-radius: 25px;
+  width: 100%;
+  min-width: 335px;
+  height: 100%;
+  min-height: 882px;
+}
+.ed_box img {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  min-width: 335px;
+  padding: 0;
+}
+.ed_box div {
+  padding: 10px;
+  line-height: 32.5px;
+}
+.ed_box div h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 28px;
+}
+.ed_box div p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 26px;
+}
+.cer_center {
+  text-align: center;
+  font-size: 40px;
+}
+.cer_center h2:hover {
+  color: #00e5ff;
+}
+.cer_boxes {
+  padding-left: 210px;
+  padding-right: 210px;
+  display: flex;
+  gap: 25px;
+}
+.cer_box {
+  border: 2px solid #f1f5f9;
+  border-radius: 25px;
+  width: 100%;
+  min-width: 335px;
+  height: 100%;
+  min-height: 1118px;
+}
+.cer_box img {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  min-width: 335px;
+  padding: 0;
+}
+.cer_box div {
+  padding: 10px;
+  line-height: 32.5px;
+}
+.cer_box div h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 28px;
+}
+.cer_box div p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 26px;
+}
+.cer_box h3 a {
+  text-decoration: none;
+}
+
+.cer2_boxes {
+  padding-left: 210px;
+  padding-right: 210px;
+  display: flex;
+  gap: 25px;
+}
+.cer2_box {
+  border: 2px solid #f1f5f9;
+  border-radius: 25px;
+  width: 100%;
+  min-width: 335px;
+  height: 100%;
+  min-height: 1300px;
+}
+.cer2_box img {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  min-width: 335px;
+  padding: 0;
+}
+.cer2_box div {
+  padding: 10px;
+  line-height: 32.5px;
+}
+.cer2_box div h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 28px;
+}
+.cer2_box div p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 26px;
+}
+.cer2_box h3 a {
+  text-decoration: none;
+}
+
+.cer3_boxes {
+  padding-left: 210px;
+  padding-right: 210px;
+  display: flex;
+  gap: 25px;
+}
+.cer3_box {
+  border: 2px solid #f1f5f9;
+  border-radius: 25px;
+  width: 100%;
+  min-width: 335px;
+  height: 100%;
+  min-height: 1240px;
+}
+.cer3_box img {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  min-width: 335px;
+  padding: 0;
+}
+.cer3_box div {
+  padding: 10px;
+  line-height: 32.5px;
+}
+.cer3_box div h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 28px;
+}
+.cer3_box div p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 26px;
+}
+.cer3_box h3 a {
+  text-decoration: none;
+}
+/*============================================================
+   Portfolio certificates Page section css Ends from here
+============================================================*/
+/*============================================================
+   Portfolio Contact Page section css Starts from here
+============================================================*/
+#contact {
+  padding-top: 0;
+  padding-left: 210px;
+  padding-bottom: 0;
+  font-size: 35px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.conh {
+  padding-left: 210px;
+  display: flex;
+  gap: 8px;
+  font-size: 22.5px;
+}
+.conh span {
+  color: #00e5ff;
+}
+.left_side {
+  padding-left: 210px;
+  display: grid;
+  gap: 70px;
+  align-items: start;
+}
+.left_side_details {
+  padding: 35px;
+  border: 2px solid #00e5ff;
+  border-radius: 25px;
+  background-color: #0b0f19;
+  width: 440px;
+}
+.left_side_details h2 {
+  color: #00e5ff;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.left_side_details p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+  font-weight: 1px;
+}
+.my_contact_details {
+  gap: 20px;
+}
+.my_first_contact_detail {
+  display: flex;
+}
+.my_first_contact_detail div {
+  display: contents;
+}
+.my_first_contact_detail div h3 {
+  padding-left: 10px;
+  margin: 0px;
+  margin-top: 15px;
+  padding-right: 5px;
+  font-size: 20px;
+}
+.my_first_contact_detail div a {
+  margin: 0px;
+  margin-top: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 19px;
+}
+.my_first_contact_detail div a:hover {
+  color: #00e5ff;
+}
+.my_first_contact_detail img {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  border: 2px solid #00e5ff;
+}
+#github_image {
+  background-color: white;
+}
+.availability p {
+  font-size: 15px;
+  color: #f1f5f9;
+  margin: 1px;
+}
+
+.right_side_details {
+  padding: 35px;
+  border: 2px solid #00e5ff;
+  border-radius: 25px;
+  background-color: #0b0f19;
+  height: 432px;
+  width: 440px;
+}
+.right_side {
+  padding-right: 210px;
+}
+.form_heading {
+  color: #00e5ff;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.form_group {
+  display: flex;
+  padding-bottom: 20px;
+  gap: 10px;
+}
+.form_group label {
+  width: 85px;
+  font-size: 20px;
+}
+.form_group input,
+.form_group textarea {
+  width: 350px;
+}
+.leftside {
+  display: flex;
+  gap: 20px;
+}
+#button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  background-color: #00e5ff;
+  color: #0b0f19;
+  border: 1px solid #f1f5f9;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+/*============================================================
+   Portfolio Contact Page section css Ends from here
+============================================================*/
+/*============================================================
+   Portfolio Footer Page section css Starts from here
+============================================================*/
+.footer {
+  background: #0b0f19;
+  color: #f1f5f9;
+  border-top: 0.1px solid #1e293b;
+  padding: 70px 210px 50px;
+}
+.footer_details {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_left {
+  display: grid;
+  gap: 80px;
+}
+.footer_name h2 {
+  font-size: 32px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+.footer_name h2 span {
+  color: #00e5ff;
+}
+.footer_name h3 {
+  font-size: 20px;
+  color: #00e5ff;
+  margin: 0 0 15px;
+  font-weight: 500;
+}
+.footer_name p {
+  color: #f1f5f9;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 350px;
+}
+.footer_links a {
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.footer_links a:hover {
+  color: #00e5ff;
+}
+.footer_links h3 {
+  font-size: 25px;
+  margin: 0 0 10px;
+}
+.footer_connect a {
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.footer_connect a:hover {
+  color: #00e5ff;
+}
+.footer_connect h3 {
+  font-size: 25px;
+  margin: 0 0 10px;
+}
+.footer_message {
+  margin-top: 60px;
+  padding: 20px 0;
+  border-top: 1px solid #1e293b;
+  border-bottom: 1px solid #1e293b;
+  font-size: 20px;
+  text-align: center;
+}
+.footer_message span {
+  color: #00e5ff;
+}
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  color: #64748b;
+  font-size: 15px;
+}
+.footer_bottom p {
+  margin: 0;
+}
+.footer_bottom span {
+  color: #00e5ff;
+}
+.back_top {
+  color: #f1f5f9;
+  text-decoration: none;
+}
+.back_top:hover {
+  color: #00e5ff;
+}
+/*============================================================
+   Portfolio Footer Page section css Ends from here
+============================================================*/
